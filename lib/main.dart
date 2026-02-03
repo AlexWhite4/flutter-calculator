@@ -66,6 +66,7 @@ class _CalculatorHomePageState extends State<CalculatorHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.lightBlue[100],
       appBar: AppBar(
         title: const Text('Alexs Calculator'),
       ),
